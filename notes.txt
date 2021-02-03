@@ -1,0 +1,18 @@
+TODOs
+
+1. Build the project
+  -create the folders
+  -add files
+  -connects files
+
+2. Nav bar
+
+3. Main Page
+  -Images
+  -titles
+  -animation
+  -java
+
+4. About Page
+  -pic
+  -title
