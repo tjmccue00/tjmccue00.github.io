@@ -1,5 +1,6 @@
 .body {
-  font-family: "Lato", sans-serif;
+  font-family: "Garamond", serif;
+  font-weight: bold;
   margin: 0px;
 }
 
@@ -61,8 +62,22 @@
   display columns: 2fr;
 }
 
-.imagess {
-  display:  grid;
-  height: 350px;
-  width: 50%;
+.two-column-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.profile-content-wrapper {
+  font-family: "Garamond", serif;
+  font-weight: lighter;
+  color: grey;
 }
