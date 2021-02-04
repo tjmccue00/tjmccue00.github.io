@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Ty McCue</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -28,7 +29,32 @@
         </div>
       </div>
     </div>
-    <div class="content-wrapper">
+    <div class="social-content-wrapper">
+      <div class ="icons"><a href="https://www.instagram.com/_tylermccue_/" class="fa fa-instagram"></a></div>
+      <div class ="icons"><a href="https://twitter.com/Ty_mccue" class="fa fa-twitter"></a></div>
+      <div class ="icons"><a href="https://www.linkedin.com/in/tyler-mccue-101" class="fa fa-linkedin"></a></div>
+    </div>
+      <div class="container_2">
+        <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Field</label>
+        <select id="country" name="country">
+          <option value="australia">Work</option>
+          <option value="canada">Education</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Text..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
     </div>
   </div>
 </body>
