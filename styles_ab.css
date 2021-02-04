@@ -69,6 +69,8 @@
 
 .row {
   display: flex;
+  border-top: visible;
+  border-bottom: visible;
 }
 
 .column {
