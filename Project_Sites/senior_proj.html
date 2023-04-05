@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8 " />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ty McCue</title>
+  <link rel="stylesheet" href="../styles_ab.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class ="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="../about.html">About</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="../contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          <div>TYLER MCCUE</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper_ab">
+      <div class="profile-content-wrapper">
+        <h1>Quadruped Development (Senior Project)</h1>
+        <p>The goal of our senior project was to fabricate an eight degree of freedom (DOF) prototypical quadrupedal
+           robot, develop a controller than commands the quadruped to repeatedly jump 10 cm in the air, and fabricate a modular 
+           test stand to safely deploy our controller on the quadruped. The creation of a functional quadruped will bring attention 
+           to Dr. Siyuan Xing and Charlie Refvem’s research group, Cal Poly Legged Robots, and will give future Cal Poly undergraduate 
+           and graduate students a learning tool to explore dynamic control of biomimetic robotic systems.
+        </p>
+        <p>
+          Over the course of our senior project, we successfully manufactured the mechanical quadrupedal prototype, we fabricated a 
+          wire harness to power and communicate with the actuators in our system, we developed a controller in MATLAB/Simulink that 
+          commands our quadruped to repeatedly jump 10 cm in the air, and we fabricated a modular test stand that holds our necessary 
+          electronics and facilitates the quadruped’s dynamic motion. This hopping robot will be a platform for future Cal Poly students 
+          to develop on for future senior projects and master theses.
+        </p>
+        <p>
+          Below you may find a few videos and pictures of B.R.U.C.E (Bouncing Robot Utilizing Controls Engineering), as well as the full senior project report for further detail 
+          regarding the quadruped development.
+        </p>
+        <div class="videos_el">
+          <div class="columns">
+            <video width="100%"" controls>
+              <source src="../videos/BRUCE_Articulation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="columns">
+            <video width="100%" controls>
+              <source src="../videos/BRUCE_Jump.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+        </div>
+        <iframe src="../web_files/F72 8 DOF Quadruped Senior Project Report.pdf" width="100%" height="1000px">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+    portfolioItem.addEventListener('mouseout', () => {
+      portfolioItem.childNodes[1].classList.remove('img-darken')
+    })
+  })
+</script>
+</html>

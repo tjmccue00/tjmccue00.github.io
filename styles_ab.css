@@ -78,6 +78,16 @@
   padding: 5px;
 }
 
+.columns {
+  float: left;
+  width: 50%;
+
+}
+.videos_el {
+  width: 100%;
+
+}
+
 .profile-content-wrapper {
   font-family: "Garamond", serif;
   font-weight: lighter;

@@ -74,6 +74,14 @@
   width: 100%;
 }
 
+.project-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 225px;
+  width: 100%;
+}
+
 .img-text-wrapper {
   position: absolute;
   top: 0;

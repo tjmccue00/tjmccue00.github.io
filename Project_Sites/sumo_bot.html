@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8 " />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ty McCue</title>
+  <link rel="stylesheet" href="../styles_ab.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class ="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="../about.html">About</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="../contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          <div>TYLER MCCUE</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper_ab">
+      <div class="profile-content-wrapper">
+        <h1>Sumo Bot Development</h1>
+        <p>
+            The goal for this project was to develop a robot within 8 short weeks that could autonomously sumo battle other competitors
+            within a fixed bounds. The bot could not be over 1kg and had to measure to preset dimensions. Motor size
+            was fixed and each competitor could only use certain sensors.
+            We designed a functional sumo robot equipped with multiple sensors to compete against other 
+            robots autonomously; a custom PCB was also designed specifically to collect data from these sensors and provide 
+            power to four brushed DC motors. While there are a variety of aspects to this project that we would love to improve, 
+            we were ultimately able to produce an autonomous sumo robot that stayed within the arena and searched for other bots to push out.
+        </p>
+        <p>
+          Below you may find a few videos and pictures of the sumo bot as well as a full report below.
+        </p>
+        <div class="videos_el">
+          <div class="columns">
+            <video width="100%"" height="850px" controls>
+              <source src="../videos/SUMO_Bot_Manual_Control.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="columns">
+            <video width="100%" height="850px" controls>
+              <source src="../videos/Arena_Bounds.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+        </div>
+        <iframe src="../web_files/ME_507_Final_Memo_Elwell_McCue.pdf" width="100%" height="1000px">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+    portfolioItem.addEventListener('mouseout', () => {
+      portfolioItem.childNodes[1].classList.remove('img-darken')
+    })
+  })
+</script>
+</html>
